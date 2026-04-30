@@ -25,7 +25,7 @@
   font-family: Arial, sans-serif;
   background-color: #f1efe8;
   display: flex;
-  flex-direction: column;  /* change the value here */
+  flex-direction: column;
   min-height: 100vh;
 }
 
@@ -45,6 +45,7 @@
   display: flex;
   padding: 20px 24px;
   gap: 4px;
+  flex-direction: column;
 /*  */
 /*  */
 }
@@ -73,11 +74,10 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
-  flex-direction: column; 
+  flex-direction: row; 
   padding: 10px 24px;
   gap: 20px;
-
-  /* add here */
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -102,7 +102,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; 
 }
 
@@ -132,7 +132,7 @@
 
 .main {
   /* add here */
-  flex-direction: column;
+  flex-direction: columm;
   gap: 16px;
   padding: 20px;
   background-color: #f1efe8;
@@ -155,7 +155,7 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;  
   gap: 10px;
 }
 
@@ -243,7 +243,7 @@
   background-color: #1a1a2e;
   padding: 12px 24px;
   display: flex;
-  justify-content: center;   
+  justify-content: flex-start;   
   gap: 20px;
 }
 
